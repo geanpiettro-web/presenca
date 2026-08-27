@@ -1,5 +1,6 @@
 
 import './App.css'
+import EventCard from './components/EventCard'
 
 function App() {
   return (
@@ -19,6 +20,15 @@ function App() {
 <button type='button'>Criar evento</button>
 <a href="#como-funciona">Como funciona</a>
 </div>
+</section>
+
+<section id="eventos">
+  <h2>Próximos Eventos</h2>
+  <EventCard
+  titulo="Encontro de desenvolvedores"
+  data="25/01/2026"
+  local="Local não informado"
+  />
 </section>
     </main>
   )
